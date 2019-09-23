@@ -1,0 +1,849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ad9ef238-4a0d-4017-b365-22f3eea4c17b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/HistoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/PushUpsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/HistoryServiceDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/PushUpsDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/Pushups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/entity/UserHistoryPushUps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/UserHistoryPushUpsRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/repository/UserRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pushups.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/HIBERNATE.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/src/main/java/pl/coderslab/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/src/main/java/pl/coderslab/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/src/main/java/pl/coderslab/settings/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/src/main/java/pl/coderslab/settings/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/target/HIBERNATE-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/target/HIBERNATE-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATE/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/dataSources/50acc0e3-5e5e-4d44-aad4-a6656fb45109.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIBERNATEZADANIA1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/HomeEXAMController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/controller/ValidationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/ArticleDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/AuthorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/GenericDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/PersonDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/PublisherDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/dao/StudentGroupDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Author1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/PersonDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/StudentGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/StudentNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/TweetEXAM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/entity/UserEXAM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/repository/TweetRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/java/pl/coderslab/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/resources/ValidationMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/author.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/authorUPDATE.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/person.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/src/main/webapp/WEB-INF/views/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/classes/ValidationMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/author.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/authorUPDATE.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/book.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/books.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/person.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/Spring01hibernate-1.0-SNAPSHOT/WEB-INF/views/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HIBERNATEZADANIA1/target/classes/ValidationMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/dataSources/98e11a22-6c6c-4a11-9e46-a941da3ac421.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/Hiber1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/java/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/java/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/java/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/java/entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/src/main/resources/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/target/Hiber1-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/target/Hiber1-1.0-SNAPSHOT/WEB-INF/classes/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Hiber1/target/classes/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/artifacts/spring02hibernate_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring02hibernate_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/artifacts/spring02hibernate_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/spring02hibernate_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Java_EE_6_Java_EE_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_13_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_11_1_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_orm_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/libraries/Maven__taglibs_standard_1_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/HibernateDzień2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/spring02hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/src/main/java/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/src/main/java/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HibernateDzień2/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/pl.coderslab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/plcoderslab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/SpringDiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/beans/CustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/beans/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/beans/MemoryCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/beans/SimpleCustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/plcoderslab/src/main/java/pojo/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/SpringDiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/beans/CustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/beans/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/beans/FileCustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/beans/MemoryCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/beans/SimpleCustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/java/pl/coderslab/pojo/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Homework-Spring/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/JOTESPY.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/src/main/webapp/WEBINF/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/src/main/webapp/WEBINF/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/src/main/webapp/jsp1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/src/main/webapp/jsp3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/WEBINF/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/WEBINF/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/jsp1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JOTESPY/target/JOTESPY-1.0-SNAPSHOT/jsp3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Advanced" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Exam_2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Exam_2_poprawka" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Exam_4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Exam_4_poprawa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Exam_5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_JavaScript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_MySQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_OOP" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Servlety" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Spring" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_Spring_Hibernate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_JEE_W_02_TDD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../KAT_SJE_W_03_ScrumLab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/MVC.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/ServletMVC11.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/ServletMVC12.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/java/ServletMVC13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/bookmvc.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/mvc2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/src/main/webapp/role.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/target/MVC-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/target/MVC-1.0-SNAPSHOT/mvc2.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MVC/target/MVC-1.0-SNAPSHOT/role.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Oddaj-rzeczy/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Oddaj-rzeczy/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/PROJEKTKOŃCOWY.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PROJEKTKOŃCOWY/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/ServletSESSION.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/java/Servlet01DEL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/java/Servlet01SET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/java/Servlet02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/java/Servlet1GET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/webapp/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/src/main/webapp/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/target/ServletSESSION-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/target/ServletSESSION-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/target/ServletSESSION-1.0-SNAPSHOT/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ServletSESSION/target/ServletSESSION-1.0-SNAPSHOT/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Skip to content&#10; &#10;Search or jump to…&#10;&#10;Pull requests&#10;Issues&#10;Marketplace&#10;Explore&#10; @WojtekSznajder Sign out&#10;.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/artifacts/Spring01Hibernate_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/artifacts/Spring01Hibernate_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/dataSources/2ab0839b-22d1-486c-aff8-3b6cf6151ab5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__com_fasterxml_classmate_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_0_pr2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__com_google_protobuf_protobuf_java_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_9_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_hibernate_javax_persistence_hibernate_jpa_2_1_api_1_0_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_jboss_jandex_2_0_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_orm_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/Spring01Hibernate.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/config/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/Entity/Author.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/Entity/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/Entity/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/Entity/Phone.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/Entity/Publisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/controller/AuthorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/controller/PublisherController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/dao/AuthorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/java/pl/coderslab/dao/PublisherDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/target/Spring01Hibernate-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/target/Spring01Hibernate-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring01Hibernate/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring2Hibernate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Warsztaty_1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/ZadDom.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/src/main/java/Servlet141.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/src/main/java/Servlet142.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/src/main/java/Servlet15.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/src/main/java/ServletDay2Zad3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/src/main/oop.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ZadDom/target/ZadDom-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../debil/KAT_JEE_W_02_Exam_4_poprawa" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../earnings.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../jeeexam6poprawa/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/jeeexam6poprawa.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/config/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/config/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/controller/TagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/dao/GenericDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/dao/PostDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/dao/TagDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/coderslab/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/entity/Post.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/entity/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/repo/PostRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/repo/TagRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/java/pl/coderslab/repo/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/webapp/WEB-INF/views/addPost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/webapp/WEB-INF/views/addTag.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/webapp/WEB-INF/views/allPost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/webapp/WEB-INF/views/allTags.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/views/addPost.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/views/addTag.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/views/allPost.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/pushupsSchedule.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/views/allTags.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeeexam6poprawa/target/jee-exam-hibernate-1.0-SNAPSHOT/WEB-INF/views/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/jeespringMVCtasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/AppInit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/FormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/FreeTimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/Homework/HeaderController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/MultiplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/RandomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/RandomNumberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/SessionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/ViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/YoyoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/cart/Cart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/cart/CartController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/cart/CartItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/java/pl/coderslab/cart/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/webapp/WEB-INF/views/formView.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/src/main/webapp/WEB-INF/views/multiply.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/target/jee-spring-mvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringMVCtasks/target/jee-spring-mvc-1.0-SNAPSHOT/WEB-INF/views/formView.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/jeespringmvc.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/FirstController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/FreeTimeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/HelloControler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/NameController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/RandomController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/java/pl/coderslab/RandomMaxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/src/main/webapp/WEB-INF/views/paramName.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/target/jeespringmvc-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/target/jeespringmvc-1.0-SNAPSHOT/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringmvc/target/jeespringmvc-1.0-SNAPSHOT/WEB-INF/views/paramName.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/jeespringxml.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jeespringxml/src/main/resources/beans.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/jsptaska.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/ServletTask4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/controler/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/controler/BookServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/tasks/Mvc11Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/tasks/Mvc12Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/java/pl/coderslab/tasks/Mvc13.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/jsp1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/jsp3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/jsp4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/src/main/webapp/role.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/jsp1.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/jsp3.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/jsp4.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/jsp-taska-1.0-SNAPSHOT/role.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/error.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jsptaska/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/history.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/pl.coderslab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/AppConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/SpringDiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/beans/CustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/beans/CustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/beans/FileCustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/beans/MemoryCustomerRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/beans/SimpleCustomerLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/java/pl/coderslab/pojo/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../plcoderslab/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prework/KAT_JEE_W_02_Prework_Java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../programming-school-web" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletSESSIOn/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletSESSIOn/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletSESSIOn/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletSESSIOn/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletSESSIOn/servletSESSIOn.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/servletyCOOKIEZ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/java/ServletADD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/java/ServletDEL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/java/ServletSET.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/java/ServletSHOW.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/java/ServletSHOW4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/src/main/webapp/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/target/servletyCOOKIEZ-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyCOOKIEZ/target/servletyCOOKIEZ-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/artifacts/servletyGETY_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/artifacts/servletyGETY_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/servletyGETY.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET61.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET62.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/java/ServletGET63.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../HIBERNATEZADANIA1/HIBERNATEZADANIA1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/target/servletyGETY-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyGETY/target/servletyGETY-1.0-SNAPSHOT/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletySession/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletySession/servletySession.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletySession/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletySession/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/log.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletySession/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/servletycookie.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/java/pl/coderslab/Cookie4Show.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/java/pl/coderslab/ServletCookie1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/java/pl/coderslab/ServletCookie3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/java/pl/coderslab/ServletCookie4Del.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/src/main/webapp/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/servlety-cookie-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/servlety-cookie-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletycookie/target/servlety-cookie-1.0-SNAPSHOT/index-3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/servletyposty.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/java/Censor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/java/ServletPOST1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/java/ServletPOST2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/java/ServletPOST4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/webapp/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/webapp/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/webapp/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/src/main/webapp/index4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/target/servletyposty-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/target/servletyposty-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/target/servletyposty-1.0-SNAPSHOT/index1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servletyposty/target/servletyposty-1.0-SNAPSHOT/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/AnotherClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/SampleClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/TDD/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/TDD/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/b_Asercje/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/b_Asercje/First.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/b_Asercje/MaxValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/b_Asercje/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/main/java/pl/coderslab/b_Asercje/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/AnotherClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/SampleClassTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/SimpleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/TDD/UserRepositoryTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/b_Asercje/CalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/b_Asercje/FirstTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/b_Asercje/MaxValueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/src/test/java/pl/coderslab/b_Asercje/SimpleCalculatorTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testymoduł7/testymoduł7.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/src/main/Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/src/main/webapp/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webExample/webExample.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadania .sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/dataSources/50dd4547-4b62-462c-b4ac-3e6f16ca2edf.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/target/classes/META-INF/persistance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/target/zadaniaHibernate-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/target/zadaniaHibernate-1.0-SNAPSHOT/WEB-INF/classes/META-INF/persistance.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zadaniaHibernate/zadaniaHibernate.iml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1789503818">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+          <entry key="jsp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+          <entry key="JSP" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="1193" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="coderslab" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Apka" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Apka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ad9ef238-4a0d-4017-b365-22f3eea4c17b" name="Default Changelist" comment="" />
+      <created>1568022381077</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568022381077</updated>
+      <workItem from="1568022385199" duration="1289000" />
+      <workItem from="1568101542791" duration="636000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1925000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25235197" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pl/coderslab/controllers/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/register.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
